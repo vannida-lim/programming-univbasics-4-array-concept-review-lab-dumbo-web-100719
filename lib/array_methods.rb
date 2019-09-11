@@ -10,7 +10,7 @@ end
 
 
 def find_max_value(array)
-  current_max = 0
+  current_max = array[index]
   while index < array.length do
     if current_max < current_element 
       current_max = current_element
