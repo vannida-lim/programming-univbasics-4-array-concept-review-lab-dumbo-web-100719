@@ -10,15 +10,12 @@ end
 
 
 def find_max_value(array)
-  current_max = 0
-  while current_max < array.length do
-    current_element = array[index]
-    if current_max < current_element 
-      current_max = current_element
-    end
-    current_max += 1
+  current_max = array[0]
+  array.length.times { |index|
+    puts array[index]
+  }
   end
- return current_max
+  
 end
 
 
