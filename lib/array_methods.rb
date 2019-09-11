@@ -17,7 +17,7 @@ def find_max_value(array)
       current_max = current_element
     end
   end
-  return current_max
+ return current_max
 end
 
 
